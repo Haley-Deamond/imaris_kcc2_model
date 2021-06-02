@@ -15,6 +15,7 @@ These matched values are then normalized by pairing the disease state with the c
 Once values are retrieved, organized, and calculated they are plotted for subsequent statistical analysis in GraphPad software. The script allows the user to import the pre-formatted .csv file into GraphPad, again semi-automating a previous tedious manual task.
 Overall, the benefits of this script is that it minimizes human error throughout the calculation process, allows for multiple iterations should an error be detected, and increases user efficiency as a result of automating tasks.
 
-Files:
-
-Entry Point:
+Structure:
+imaris.build_model.build_research_data() - used as an entry point to retrieve data
+imaris.model - data structure
+imaris.xls_reader - To read excel files
