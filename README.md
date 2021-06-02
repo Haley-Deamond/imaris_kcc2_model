@@ -16,6 +16,6 @@ Once values are retrieved, organized, and calculated they are plotted for subseq
 Overall, the benefits of this script is that it minimizes human error throughout the calculation process, allows for multiple iterations should an error be detected, and increases user efficiency as a result of task automation.
 
 Structure:
-imaris.build_model.build_research_data() - used as an entry point to retrieve data
-imaris.model - data structure
-imaris.xls_reader - To read excel files
+imaris.build_model.build_research_data() - Used as an entry point to retrieve data.
+imaris.model - Data structure.
+imaris.xls_reader - To read excel files.
